@@ -133,6 +133,9 @@ h2 {
     margin: 2%;
     padding: 2%;
     background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-p-one:hover,
@@ -196,7 +199,7 @@ input[type=submit]:hover {
     color: var(--black);
 }
 
-  @media all and (max-width: 710px) {
+  @media screen and (max-width: 768px) {
     p {
         font-size: 12px;
     }
@@ -218,9 +221,13 @@ input[type=submit]:hover {
     .nav-bar div ul li {
         margin-left: 15px;
     }
-  }
+    
+    .container h3 {
+        font-size: 13px;
+    }
+}
 
-  @media all and (max-width: 510px) {
+  @media screen and (max-width: 480px) {
     p {
         font-size: 10px;
     }
@@ -242,9 +249,13 @@ input[type=submit]:hover {
     .nav-bar div ul li {
         margin-left: 10px;
     }
-  }
 
-  @media all and (max-width: 333px) {
+    .container h3 {
+        font-size: 11px;
+    }
+}
+
+  @media screen and (max-width: 300px) {
     p {
         font-size: 10px;
     }
@@ -278,5 +289,5 @@ input[type=submit]:hover {
         width: 100% !important;
         margin-left: 0;
         margin-bottom: 7%;
+    }
 }
-  }
