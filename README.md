@@ -1,6 +1,6 @@
 # Advanced CSS-C2: Professional Portfolio
 
-I am a **Licensed** Real Estate **Agent**, as such, my **Resume** and **About Me** description is tailored to accomodate that field.
+I am a **Licensed** Real Estate **Agent**, as such, my **Resume** and **About Me** description are tailored to accomodate that **field**.
 
 > With my new found passion for **software development**, I plan on further building my **repository** with meaningful projects to showcase my **skillsets** and **abilities**.
 
